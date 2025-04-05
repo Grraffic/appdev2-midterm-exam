@@ -11,4 +11,4 @@ console.log("Protocol:", parsedUrl.protocol);
 console.log("Hostname:", parsedUrl.hostname);
 console.log("Port:", parsedUrl.port);
 console.log("Pathname:", parsedUrl.pathname);
-console.log("Category:", JSON.stringify(parsedUrl.query));
+console.log("Query Parameter:", JSON.stringify(parsedUrl.query));
